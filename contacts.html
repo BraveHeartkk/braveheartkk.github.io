@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>UrbanTaste - Контакти та бронювання</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <img class="logo" src="img/logo.png">
+                <nav class="nav" id="mainNav">
+                    <a href="index.html">Головна</a>
+                    <a href="about.html">Про нас</a>
+                    <a href="menu.html">Меню</a>
+                    <a href="contacts.html" style="text-decoration: underline;">Контакти</a>
+                    <a href="contacts.html" class="book-btn">Забронювати стіл</a>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Контакти та бронювання</h1>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Наші контакти</h2>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-text">
+                            <h3>Адреса</h3>
+                            <p>м. Дніпро, вул. Дніпровська, 99</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-text">
+                            <h3>Телефон</h3>
+                            <p>+380(99) 999-09-99</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>info@urbantaste.ua</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div class="contact-text">
+                            <h3>Години роботи</h3>
+                            <p>Пн-Нд: 10:00 - 23:00</p>
+                        </div>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="social-media">
+                        <h2>Ми в соціальних мережах</h2>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">📷</a>
+                            <a href="#" class="social-icon">▶️</a>
+                            <a href="#" class="social-icon">📘</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Booking Form -->
+                <div class="booking-form">
+                    <h2>Забронювати стіл</h2>
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <label for="name">Ваше ім'я</label>
+                            <input type="text" id="name" class="form-input" placeholder="Введіть ваше ім'я" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" class="form-input" placeholder="+380" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Дата</label>
+                                <input type="date" id="date" class="form-input" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="time">Час</label>
+                                <input type="time" id="time" class="form-input" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="guests">Кількість гостей</label>
+                            <select id="guests" class="form-input" required>
+                                <option value="1">1 людина</option>
+                                <option value="2">2 людини</option>
+                                <option value="3">3 людини</option>
+                                <option value="4">4 людини</option>
+                                <option value="5">5 людей</option>
+                                <option value="6">6+ людей</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Забронювати</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Навігація</h3>
+                <a href="index.html">Головна</a>
+                <a href="about.html">Про нас</a>
+                <a href="menu.html">Меню</a>
+                <a href="contacts.html">Контакти</a>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Соціальні мережі</h3>
+                <div class="footer-social-icons">
+                    <a href="#" class="footer-social-icon">
+                        <img src="img/youtube.svg" alt="Instagram" class="social-svg">
+                    </a>
+                    <a href="#" class="footer-social-icon">
+                        <img src="images/youtube-icon.svg" alt="YouTube" class="social-svg">
+                    </a>
+                    <a href="#" class="footer-social-icon">
+                        <img src="images/facebook-icon.svg" alt="Facebook" class="social-svg">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Контакти</h3>
+                <a href="#">м. Дніпро, вул. Дніпровська, 99</a>
+                <a href="tel:+380999990999">+380(99) 999-09-99</a>
+                <a href="mailto:info@urbantaste.ua">info@urbantaste.ua</a>
+                <a href="#">Пн-Нд: 10:00 - 23:00</a>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            UrbanTaste. Усі права захищені.
+        </div>
+    </div>
+</footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobileMenuBtn').addEventListener('click', function() {
+            document.getElementById('mainNav').classList.toggle('active');
+        });
+
+        // Form submission
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('name').value,
+                phone: document.getElementById('phone').value,
+                date: document.getElementById('date').value,
+                time: document.getElementById('time').value,
+                guests: document.getElementById('guests').value
+            };
+            
+            // Here you would typically send the data to a server
+            console.log('Booking data:', formData);
+            alert('Стіл успішно заброньовано! Ми зв\'яжемося з вами для підтвердження.');
+            
+            // Reset form
+            this.reset();
+        });
+
+        // Set minimum date to today
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('date').min = today;
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('mainNav').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
